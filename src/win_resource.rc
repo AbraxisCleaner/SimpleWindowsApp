@@ -1,0 +1,14 @@
+#include "win_resource.h"
+
+IDR_ACCELTABLE ACCELERATORS
+{
+    0x0D, ID_ACCEL_ALTENTER, VIRTKEY, ALT
+}
+
+IDR_MENU MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "E&xit", ID_FILEMENU_EXIT
+    }
+}
